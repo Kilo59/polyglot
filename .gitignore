@@ -44,3 +44,6 @@ docs/_build
 
 # Notebook checkpoint
 .ipynb_checkpoints
+
+# IDE
+\.vscode/
