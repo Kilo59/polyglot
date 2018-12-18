@@ -29,4 +29,7 @@ install:
   - pip install polyglot
 
 # command to run tests, e.g. python setup.py test
-script: py.test
+script: py.test -rfs --cov=polyglot --cov-report term-missing --cov-report xml
+after_success:
+  - ls
+  - coveralls
