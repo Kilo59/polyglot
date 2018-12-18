@@ -9,7 +9,7 @@ basic tests for `polyglot` module.
 """
 
 import pytest
-from polyglot import polyglot
+import polyglot
 
 
 @pytest.mark.parametrize(
@@ -25,6 +25,8 @@ from polyglot import polyglot
     ],
 )
 def test_language_detection(text_input, expected_code, expected_name):
+    from polyglot.text import Text
+
     poly_text = polyglot.Text(text_input)
     assert poly_text.language.code == expected_code
     assert poly_text.language.name == expected_lang
