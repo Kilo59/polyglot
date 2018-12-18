@@ -12,7 +12,7 @@ import pytest
 import polyglot
 
 
-@pytest.makr.xfail()
+@pytest.mark.xfail()
 @pytest.mark.parametrize(
     "text_input,expected_code,expected_name",
     [
