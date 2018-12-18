@@ -9,7 +9,7 @@ basic tests for `polyglot` module.
 """
 
 import pytest
-import polyglot
+from polyglot import polyglot
 
 
 @pytest.mark.parametrize(
