@@ -12,6 +12,9 @@ polyglot
    :target: https://travis-ci.org/aboSamoor/polyglot
 .. |Documentation Status| image:: https://readthedocs.org/projects/polyglot/badge/?version=latest
    :target: https://readthedocs.org/builds/polyglot/
+.. image:: https://coveralls.io/repos/github/aboSamoor/polyglot/badge.svg?branch=master
+   :target: https://coveralls.io/github/aboSamoor/polyglot?branch=master
+
 
 Polyglot is a natural language pipeline that supports massive
 multilingual applications.
