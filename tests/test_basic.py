@@ -28,3 +28,7 @@ def test_language_detection(text_input, expected_code, expected_name):
     result = Text(text_input)
     assert result.language.code == expected_code
     assert result.language.name == expected_lang
+
+
+if __name__ == "__main__":
+    pytest.main(["-vv"])
