@@ -10,9 +10,11 @@ smoke tests for `polyglot` module.
 
 import pytest
 
-def test_for_fire()
+
+def test_for_fire():
     """Make sure nothing blows up while importing polyglot"""
     import polyglot
 
-if __name__ == '__main__':
-    pytest.main(['-v'])
+
+if __name__ == "__main__":
+    pytest.main(["-v"])
